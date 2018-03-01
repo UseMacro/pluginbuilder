@@ -1,4 +1,7 @@
 {
+  "name": "plugin-lib",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --optimize-minimize --config webpack.config.js --mode production"
   },
@@ -12,5 +15,16 @@
   "dependencies": {
     "@types/chrome": "^0.0.58",
     "keymaster": "^1.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UseMacro/pluginbuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UseMacro/pluginbuilder/issues"
+  },
+  "homepage": "https://github.com/UseMacro/pluginbuilder#readme",
+  "description": ""
 }
