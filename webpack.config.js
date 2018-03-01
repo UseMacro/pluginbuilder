@@ -20,6 +20,11 @@ var options = {
         test: /\.tsx?$/,
         loader: "ts-loader"
       },
+      {
+        // Handles compiling React, ES7, ES6
+        test: /\.jsx?$/,
+        loader: "babel-loader"
+       }
     ]
   },
   plugins: [
